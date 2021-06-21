@@ -5,17 +5,9 @@ const app = new Vue(
     {
         el: '#root',
         data: {
-            a:"",
-            b:""
+            message: "Ciao, sono un h1",
+            img: "img/ok.jpg",
         },
-        methods:{
-            // area:function(){
-            //     alert(this.a*this.b);
-            // }
-            //oppure
-            area(){
-                alert('l\'area del rettangolo è ' + this.a*this.b);
-            }
-        }
+
     }
 )
