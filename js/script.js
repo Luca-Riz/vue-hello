@@ -5,9 +5,23 @@ const app = new Vue(
     {
         el: '#root',
         data: {
-            message: "Ciao, sono un h1",
-            img: "img/ok.jpg",
+            message: "Ciao, sono un H1",
+            colore: 'white',
+            img: "img/ok.png"
         },
-
+    
+    
+        methods: {
+        cambioColore: function(){
+                if(this.colore == 'white'){
+                this.colore = 'greenyellow'
+                } else {
+                    this.colore = 'white'
+                }
+            }
+        }
     }
 )
+
+
+

@@ -1,0 +1,18 @@
+#root {
+    background-color: black;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.white {color: white;}
+.greenyellow {color: greenyellow;}
+
+img {
+    margin-bottom: 20px;
+}
