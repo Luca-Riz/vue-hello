@@ -8,15 +8,16 @@ const app = new Vue(
             message: "Ciao, sono un H1",
             colore: 'white',
             img: "img/ok.png"
-        },
-    
+        },    
     
         methods: {
         cambioColore: function(){
                 if(this.colore == 'white'){
                 this.colore = 'greenyellow'
+                this.message = "Ciao, sono un H1 verde."
                 } else {
                     this.colore = 'white'
+                    this.message = "Ciao, sono un H1"
                 }
             }
         }
